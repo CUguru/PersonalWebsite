@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="57px" viewBox="0 0 34 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>F276579A-FE18-4CC4-8AD9-E303B55EE54D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M12.4720436,28.4847499 L32.096151,8.8606426 C34.1255597,6.83123389 34.1267374,3.54408816 32.100014,1.5173647 C30.0774145,-0.505234781 26.785593,-0.507629225 24.7567361,1.52122772 L1.52298165,24.7549821 C0.493737155,25.7842266 -0.0138137853,27.1369813 0.000285821871,28.4847499 C-0.0138137853,29.8325186 0.493737155,31.1852732 1.52298165,32.2145177 L24.7567361,55.4482722 C26.785593,57.4771291 30.0774145,57.4747347 32.100014,55.4521352 C34.1267374,53.4254117 34.1255597,50.138266 32.096151,48.1088573 L12.4720436,28.4847499 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.6191326" height="56.9694999" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.65">
+        <g id="Artboard-3-Copy-7" transform="translate(-40.000000, -1082.000000)" stroke="#FFFFFF" stroke-width="4" fill="#808080">
+            <g id="Group-6" transform="translate(40.000000, 1082.000000)">
+                <use id="Combined-Shape" mask="url(#mask-2)" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
