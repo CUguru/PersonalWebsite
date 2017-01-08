@@ -109,12 +109,23 @@ h1 {
 }
 
 .about_me_text {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
 .about_social_icons {
   margin-top: 2em;
+}
+
+.about_social_icons img {
+  width: 2em;
+  margin-left: 28.3px;
+  margin-right: 28.3px;
+}
+
+.download {
+  width: 3%;
+  min-width: 20px;
 }
 .resume_section {
   padding-top: 2em;
@@ -268,6 +279,11 @@ h1 {
 
 .social_icons {
   margin-left: 3em;
+}
+
+.social_icons a {
+  width: 3%;
+  min-width: 20px;
 }
 
 .social_icons a {
