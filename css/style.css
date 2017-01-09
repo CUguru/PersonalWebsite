@@ -48,6 +48,10 @@ h1 {
   font-size: 1em;
   color: #535353; }
 
+.intro_section b {
+  background-color: #9d81fe;
+  color: #fff; }
+
 .main_about_section {
   position: relative;
   height: 100vh;
@@ -67,7 +71,12 @@ h1 {
   font-weight: 300;
   border-radius: 100px;
   padding: 12px 30px;
-  position: relative; }
+  position: relative;
+  transition: background-color .4s, color .4s; }
+
+.back_link_container a:hover {
+  background-color: #fff;
+  color: #9d81fe; }
 
 .back_arrow {
   position: absolute;
@@ -164,7 +173,8 @@ h1 {
 
 .project_snippet {
   padding-bottom: 1.7em;
-  color: #535353; }
+  color: #535353;
+  font-size: 0.9em; }
 
 .website_link a {
   color: #9d81fe;
@@ -216,6 +226,10 @@ h1 {
 
 .social_icons {
   margin-left: 2em; }
+
+.about_social_icons a,
+.social_icons a {
+  transition: opacity .3s; }
 
 .social_icons img {
   width: 1.8em;

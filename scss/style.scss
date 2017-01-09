@@ -70,6 +70,11 @@ h1 {
   color: $base-font-color;
 }
 
+.intro_section b {
+  background-color: $accent-color;
+  color: #fff;
+}
+
 // /** about page styling ***/
 
 .main_about_section {
@@ -94,8 +99,13 @@ h1 {
   border-radius: 100px;
   padding: 12px 30px;
   position: relative;
+  transition: background-color .4s, color .4s;
 }
 
+.back_link_container a:hover {
+  background-color: #fff;
+  color: $accent-color;
+}
 .back_arrow {
   position: absolute;
   top: 30%;
@@ -214,6 +224,7 @@ h1 {
 .project_snippet {
   padding-bottom: 1.7 * $base-font-size;
   color: $base-font-color;
+  font-size: .9 * $base-font-size;
 }
 
 .website_link a {
@@ -276,6 +287,11 @@ h1 {
 
 .social_icons {
   margin-left: 2em;
+}
+
+.about_social_icons a,
+.social_icons a {
+  transition: opacity .3s;
 }
 
 .social_icons img {
