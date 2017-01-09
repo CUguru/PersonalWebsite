@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chibuzo Uguru - Front-End Developer</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flickity.css" media="screen">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600|Roboto+Mono:400,500" rel="stylesheet">
   </head>
   <body>
@@ -21,12 +22,8 @@
         </article>
       </section>
       <section class="bottom-section">
-        <div class="container">
-          <article class="works_section js_scroll">
-            <a href="#" class="next_button right_arrow scroll_buttons"><img src="images/NextArrow.svg" id="arrows"></a>
-            <a href="#" class="previous_button left_arrow scroll_buttons"><img src="images/previousArrow.svg" id="arrows"></a>
-
-            <div id="first_project" class="projects_panel is_active">
+        <div class="container main-carousel">
+            <section id="first_project" class="projects_panel carousel-cell">
               <div class="project_descriptions">
                 <h5 class="selected_works">SELECTED WORKS</h5>
                 <h3 class="project_name">Avion To Do</h3>
@@ -38,62 +35,65 @@
                 </h5>
               </div>
               <div class="project_image"><img src="images/avion.png" class="main_image"></div>
-            </div>
-            <div id="second_project" class="projects_panel">
-              <div class="project_image"><img src="images/avion.png" class="main_image"></div>
-              <div class="project_descriptions">
-                <h5 class="selected_works">SELECTED WORKS</h5>
-                <h3 class="project_name">Avion To Do</h3>
-                <p class="tools_used">HTML5, CSS3, JAVASCRIPT, REACTJS</p>
-                <p>I'm a Front-End Developer. I love programming, learning new technologies
-                and experimenting with novel ways to convey delight through development.</p>
-                <h5>
-                  <a href="#">View Website</a>
-                </h5>
-              </div>
-            </div>
-            <!-- <section id="third_project" class="projects_panel">
-              <div class="project_image"><img src="images/avion.png" class="main_image"></div>
-              <div class="project_descriptions">
-                <h5 class="selected_works">SELECTED WORKS</h5>
-                <h3 class="project_name">Avion To Do</h3>
-                <p class="tools_used">HTML5, CSS3, JAVASCRIPT, REACTJS</p>
-                <p>I'm a Front-End Developer. I love programming, learning new technologies
-                and experimenting with novel ways to convey delight through development.</p>
-                <h5>
-                  <a href="#">View Website</a>
-                </h5>
-              </div>
             </section>
-            <section id="fourth_project" class="projects_panel">
-              <div class="project_image"><img src="images/avion.png" class="main_image"></div>
+            <section id="second_project" class="projects_panel carousel-cell">
               <div class="project_descriptions">
                 <h5 class="selected_works">SELECTED WORKS</h5>
                 <h3 class="project_name">Avion To Do</h3>
                 <p class="tools_used">HTML5, CSS3, JAVASCRIPT, REACTJS</p>
-                <p>I'm a Front-End Developer. I love programming, learning new technologies
+                <p class="project_snippet">I'm a Front-End Developer. I love programming, learning new technologies
                 and experimenting with novel ways to convey delight through development.</p>
-                <h5>
+                <h5 class="website_link">
                   <a href="#">View Website</a>
                 </h5>
               </div>
-            </section> -->
-          </article>
-          <section class="footer_section">
-            <p>I'm fun and friendly. If you have any<br>projects in mind, feel free to reach out.</p>
-            <div class="contact_and_more">
-              <a href="#" class="contact_me">CONTACT</a>
-              <a href="about.html" class="more_about_me">MORE ABOUT ME</a>
-            </div>
-            <div class="social_icons">
-                <a href="https://github.com/CUguru" target="_blank"><img src="images/github.svg"></a>
-                <a href="https://ca.linkedin.com/in/chibuzouguru" target="_blank"><img src="images/linkedIn.svg"></a>
-                <a href="https://twitter.com/C_Uguru" target="_blank"><img src="images/twitter.svg"></a>
-            </div>
-          </section>
+              <div class="project_image"><img src="images/avion.png" class="main_image"></div>
+            </section>
+            <section id="third_project" class="projects_panel carousel-cell">
+              <div class="project_descriptions">
+                <h5 class="selected_works">SELECTED WORKS</h5>
+                <h3 class="project_name">Avion To Do</h3>
+                <p class="tools_used">HTML5, CSS3, JAVASCRIPT, REACTJS</p>
+                <p class="project_snippet">I'm a Front-End Developer. I love programming, learning new technologies
+                and experimenting with novel ways to convey delight through development.</p>
+                <h5 class="website_link">
+                  <a href="#">View Website</a>
+                </h5>
+              </div>
+              <div class="project_image"><img src="images/avion.png" class="main_image"></div>
+            </section>
+            <section id="fourth_project" class="projects_panel carousel-cell">
+              <div class="project_descriptions">
+                <h5 class="selected_works">SELECTED WORKS</h5>
+                <h3 class="project_name">Avion To Do</h3>
+                <p class="tools_used">HTML5, CSS3, JAVASCRIPT, REACTJS</p>
+                <p class="project_snippet">I'm a Front-End Developer. I love programming, learning new technologies
+                and experimenting with novel ways to convey delight through development.</p>
+                <h5 class="website_link">
+                  <a href="#">View Website</a>
+                </h5>
+              </div>
+              <div class="project_image"><img src="images/avion.png" class="main_image"></div>
+            </section>
         </div>
+        <section class="footer_section">
+          <p>I'm fun and friendly. If you have any<br>projects in mind, feel free to reach out.</p>
+          <div class="contact_and_more">
+            <a href="#" class="contact_me">CONTACT</a>
+            <a href="about.html" class="more_about_me">MORE ABOUT ME</a>
+          </div>
+          <div class="social_icons">
+              <a href="https://github.com/CUguru" target="_blank"><img src="images/aboutGithub.svg"></a>
+              <a href="https://ca.linkedin.com/in/chibuzouguru" target="_blank"><img src="images/aboutLinkedIn.svg"></a>
+              <a href="https://twitter.com/C_Uguru" target="_blank"><img src="images/aboutTwitter.svg"></a>
+          </div>
+        </section>
       </section>
+      <footer class="rights_reserved">
+        <p>ALL RIGHTS RESERVED. CHIBUZO UGURU. 2016</p>
+      </footer>
     </main>
+    <script src="js/flickity.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 

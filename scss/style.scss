@@ -7,6 +7,14 @@ $base-font-size: 1em;
 $base-font-color: #535353;
 $accent-color: #9d81fe;
 
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,6 +36,10 @@ h1 {
   position: relative;
   background-color: $top-background-color;
   height: 70vh;
+}
+
+.container {
+  position: relative;
 }
 
 .logo_title {
@@ -58,7 +70,7 @@ h1 {
   color: $base-font-color;
 }
 
-/** about page styling ***/
+// /** about page styling ***/
 
 .main_about_section {
   position: relative;
@@ -77,10 +89,10 @@ h1 {
   border: 2px solid $accent-color;
   background-color: $accent-color;
   color: #fff;
-  font-size: .5 * $base-font-size;
+  font-size: .7 * $base-font-size;
   font-weight: 300;
   border-radius: 100px;
-  padding: 10px 30px;
+  padding: 12px 30px;
   position: relative;
 }
 
@@ -105,11 +117,12 @@ h1 {
 }
 
 .about_image {
-  width: 40%;
+  width: 35%;
+  min-width: 250px;
 }
 
 .about_me_text {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -129,6 +142,14 @@ h1 {
 }
 .resume_section {
   padding-top: 2em;
+  // display: inline-block;
+}
+
+.resume_section a {
+  opacity: .7;
+}
+.resume_section a:hover {
+  opacity: 1;
 }
 
 .resume_section p {
@@ -141,67 +162,27 @@ h1 {
   position: relative;
 }
 
-.container {
-  position: relative;
-}
+// .container {
+//   position: relative;
+// }
 
 .projects_panel {
   display: flex;
   position: relative;
-}
-
-.works_section {
-  position: relative;
+  width: 100%; /* full width */
+  margin-right: 10px;
+  // overflow-x: hidden;
 }
 
 .project_image {
   width: 100%;
   min-width: 700px;
-  margin-top: -70px;
+  max-width: 1300px;
+  margin-top: -80px;
 }
 
 .main_image {
   width: 100%;
-}
-
-#second_project,
-#third_project,
-#fourth_project {
-  visibility: hidden;
-}
-
-/***** styling the button positioning ****/
-.scroll_buttons {
-  position: absolute;
-  cursor: pointer;
-  background-color: transparent;
-  border: $style-decoration;
-}
-
-.scroll_buttons:hover {
-  opacity: 0.8;
-}
-
-.scroll_buttons:active {
-  transform: translateY(1px);
-}
-#arrows {
-  width: 90%;
-}
-
-.previous_button,
-.next_button {
-  top: 40%;
-}
-
-.previous_button {
-  left: 40px;
-  z-index: 2;
-}
-
-.next_button {
-  right: 40px;
-  z-index: 2;
 }
 
 /**** project descriptions ***/
@@ -238,15 +219,25 @@ h1 {
 .website_link a {
   color: $accent-color;
   font-family: $secondary-font;
+  display: inline-block;
   font-weight: 300;
+  border-bottom: 2px solid transparent;
+  transition: .5s ease;
+  white-space: nowrap;
+  width: 0;
+  height: 20px;
 }
 
-/*** footer section *///
+.website_link a:hover {
+  border-bottom: 2px solid $accent-color;
+  width: 100px;
+}
+
+// /*** footer section *///
 .footer_section {
   position: relative;
   width: 100%;
   padding: 7em 0;
-  // border: 1px solid #000;
   display: flex;
 }
 
@@ -267,6 +258,12 @@ h1 {
   background-color: transparent;
   font-size: .7 * $base-font-size;
   margin: 0 1.5em;
+  transition: background-color .3s, color .3s;
+}
+
+.contact_and_more a:hover {
+  background-color: $accent-color;
+  color: #fff;
 }
 
 .contact_me {
@@ -278,14 +275,29 @@ h1 {
 }
 
 .social_icons {
-  margin-left: 3em;
+  margin-left: 2em;
 }
 
-.social_icons a {
-  width: 3%;
+.social_icons img {
+  width: 1.8em;
   min-width: 20px;
+  margin-left: 3em;
 }
 
-.social_icons a {
-  margin-left: 3em;
+.about_social_icons a:hover,
+.social_icons a:hover {
+  opacity: 0.7;
+}
+
+
+/*** rights reserved *///
+.rights_reserved {
+  padding-bottom: 2em;
+}
+
+.rights_reserved p {
+  font-family: $secondary-font;
+  font-size: .7 * $base-font-size;
+  color: rgba(83, 83, 83, 0.5);
+  margin-left: 8em;
 }
