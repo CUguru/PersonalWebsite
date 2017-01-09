@@ -251,5 +251,57 @@ h1 {
   margin-left: 8em; }
 
 /*** media queries styling **/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /**footer section **/
+  .rights_reserved p {
+    margin-left: 0em;
+    text-align: center; }
+
+  .footer_section {
+    padding: 1em 0;
+    display: block;
+    text-align: center; }
+
+  .footer_section p {
+    color: #535353;
+    font-size: 1em;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 3em; }
+
+  .contact_and_more {
+    margin-left: 0em;
+    margin-top: 2em; }
+
+  .contact_and_more a {
+    border: 2px solid #9d81fe;
+    border-radius: 100px;
+    background-color: transparent;
+    font-size: 0.7em;
+    margin: 0 .5em;
+    transition: background-color .3s, color .3s; }
+
+  .contact_me {
+    padding: 15px 35px; }
+
+  .more_about_me {
+    padding: 15px 20px; }
+
+  .social_icons {
+    margin-left: 0em;
+    margin-top: 5em; }
+
+  .social_icons img {
+    width: 2em;
+    margin-left: 1em; }
+
+  /** top section **/
+  .top-section {
+    text-align: center; }
+
+  .intro_section {
+    top: 11em;
+    left: 0;
+    padding: 0 2em; } }
 
 /*# sourceMappingURL=style.css.map */
