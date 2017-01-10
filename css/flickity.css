@@ -82,8 +82,8 @@ http://flickity.metafizzy.co
 
 .flickity-page-dots {
   position: absolute;
-  bottom: 10em;
-  left: 5.2em;
+  bottom: 90px;
+  left: 85px;
   padding: 0;
   margin: 0;
   list-style: none;
