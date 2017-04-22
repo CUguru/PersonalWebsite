@@ -1,0 +1,158 @@
+/*accent color: #9d81fe*/
+/*main font: Muli*/
+/*secondary-font: 'Roboto Mono'*/
+/*base-font-color: #535353*/
+
+/*main section styling*/
+a {
+  text-decoration: none;
+}
+p {
+  display: inline-block;
+}
+html {
+  font-family: 'Muli';
+}
+
+body {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.5em;
+  color: #535353;
+  font-size: 12px;
+}
+ h1, h3 {
+   color: #9d81fe;
+ }
+ h1 {
+   font-size: 4em;
+   font-weight: 500;
+   padding-top: .7em;
+   padding-bottom: .3em;
+   display: inline-block;
+ }
+
+ h2 {
+   color: #535353;
+   font-size: 2.3em;
+ }
+
+/*personal info styling*/
+#main-job {
+  padding: 1em 0;
+}
+.personal_info a,
+.personal_info p {
+  font-size: 1.7em;
+  padding: .2em 0;
+}
+
+.personal_info a {
+  color: #9d81fe;
+}
+
+/*sub heading styling*/
+#subheading {
+  font-size: 2em;
+  padding: .9em 0 .2em 0;
+}
+
+
+.projects div {
+  margin-top: 1em;
+}
+
+/*tool section styling*/
+ul li {
+  font-size: 1.3em;
+  padding: .2em 0;
+}
+
+/* education section styling*/
+#sheridan {
+  padding: .8em 0 1em 0;
+}
+#school-name {
+  font-size: 1.4em;
+  font-weight: 600;
+  padding-bottom: .5em;
+}
+#program-name, #grad-date {
+  display: block;
+  padding: .3em 0 .1em 1em;
+  font-size: 1.3em;
+}
+#grad-date {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+/*project styling*/
+#project-name {
+  font-size: 1.5em;
+  font-weight: 600;
+  padding-top: 1em;
+  padding-bottom: .1em;
+  /*color: #535353;*/
+}
+
+#project-name a {
+  color: #535353;
+}
+
+#project-name span {
+  opacity: 0;
+  transition: display .3s, opacity .3s;
+}
+
+#proj-description, #tools-used {
+  padding: .3em 0 .3em 1em;
+  display: block;
+}
+
+#proj-description {
+  font-size: 1.4em;
+  width: 90%;
+  letter-spacing: .02em;
+}
+
+#tools-used {
+  font-size: 1.3em;
+}
+#tools-used span {
+  color: #9d81fe;
+}
+ /*footer styling*/
+ .rights_reserved {
+   padding-bottom: 2em;
+   padding-top: 2em;
+  }
+
+ .rights_reserved p {
+   font-family: "Roboto Mono";
+   font-size: .9em;
+   color: rgba(83, 83, 83, 0.6);
+   text-align: center;
+ }
+
+/* lower pdf section*/
+.resume_section {
+  padding: 1em;
+}
+
+.resume {
+  color: #535353;
+  font-size: 1.2em;
+}
+
+.download {
+  width: 1.3em;
+}
+ /*media queries for larger screens*/
+ @media (min-width: 70em){
+   #project-name span {
+     display: inline-block;
+     opacity: 1;
+   }
+ }

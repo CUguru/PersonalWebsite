@@ -7,8 +7,33 @@
     <title>Chibuzo Uguru - Front-End Developer</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600|Roboto+Mono:400,500" rel="stylesheet">
+
+
+    <!-- for Google -->
+    <meta name="description" content="Chibuzo Uguru Front-End Developer portfolio" />
+    <meta name="keywords" content="Front-End Developer, web, developer, Web Developer" />
+    <meta name="author" content="Chibuzo Uguru - Front-End Developer" />
+    <link rel="author" href="https://plus.google.com/+ChibuzoUguru">
+    <meta name="copyright" content="2017" />
+
+    <!-- For Facebook -->
+    <meta property="og:title" content="Chibuzo Uguru - Front-End Developer" />
+    <meta property="og:url" content="http://chibuzouguru.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Personal portfolio of Chibuzo Uguru." />
+    <meta property="og:image" content="http://chibuzouguru.com/images/ogImage.jpg" />
+    <meta property="og:image:height" content="1200" />
+    <meta property="og:image:width" content="630" /> <!-- Facebook recommended: 1200 x 630 - ideal: 1200 x 1200 square image -->
+
+    <!-- For Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Chibuzo Uguru - Front-End Developer" />
+    <meta name="twitter:description" content="Personal portfolio of Chibuzo Uguru." />
+    <meta name="twitter:url" content="http://chibuzouguru.com" />
+    <meta name="twitter:image" content="http://chibuzouguru.com/images/ogImage.jpg" />
   </head>
   <body>
+    <div class="se-pre-con"></div>
     <main>
       <section class="main_about_section">
         <h2 class="logo_title">
@@ -20,8 +45,8 @@
 
         <section class="image_and_more">
           <div class="personal_image"><img src="images/about_image.png" class="about_image"></div>
-          <p class="about_me_text">I'm a Front-End Developer and a student at Sheridan College in the
-            Interactive Media Management program. I love to code beautiful, responsive websites.
+          <p class="about_me_text">I'm a Front-End Developer and a recent graduate from the Interactive Media Management program
+            at Sheridan College. I enjoy coding beautiful, responsive, user-centerd websites.
             <br><br>
             I love reading, working-out and a good meal!
           </p>
@@ -32,16 +57,21 @@
             <a href="https://twitter.com/C_Uguru" target="_blank"><img src="images/aboutTwitter.svg"></a>
             <a href="mailto:chibuzo.uguru@gmail.com"><img src="images/aboutEmail.svg"></a>
           </div>
-
           <div class="resume_section">
-            <a href="Chibuzo_Uguru_Resume.pdf" target="_blank">
-              <img src="images/download.svg" class="download">
-              <p class="resume">RESUME</p>
+            <a href="resume/resume.html" target="_blank">
+              <p class="resume">VIEW MY RESUME</p>
             </a>
           </div>
-
         </section>
       </section>
     </main>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
+         $(window).load(function() {
+            // Animate loader off screen
+            $(".se-pre-con").delay(400).fadeOut("slow");;
+        });
+    </script>
   </body>
 </html>

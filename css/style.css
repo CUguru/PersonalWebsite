@@ -171,6 +171,11 @@ h1 {
   padding-bottom: 10px;
   color: #535353; }
 
+.project_role {
+  color: #535353;
+  font-size: .8em;
+  padding-bottom: 10px;
+}
 .tools_used {
   font-size: 0.8em;
   padding-bottom: 1.5em;
@@ -258,6 +263,24 @@ h1 {
 
 .mobile_selected_works span {
   text-align: center; }
+
+.no-js #loader {
+  display: none; }
+
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0; }
+
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(images/ring-alt.gif) center no-repeat #fff; }
 
 /*** media queries styling **/
 @media only screen and (min-width: 769px) and (max-width: 1100px) {
